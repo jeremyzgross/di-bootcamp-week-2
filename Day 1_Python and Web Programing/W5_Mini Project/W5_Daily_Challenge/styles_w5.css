@@ -1,0 +1,88 @@
+body{
+  /* background-color:#F74F5A; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 333px;
+  padding-top: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(#F74F5A, #F75C7E);
+
+}
+
+#footer{
+  display: none;
+}
+
+#taskForm{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  background-color: white;
+  padding: 10px 0px 10px 0px ;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 10px;
+  input {
+      border-style: none;
+      padding-left: 15px;
+    }
+  input:focus{
+    outline: none;
+  }
+
+}
+
+h1{
+  text-align: center;
+  color: lightgray;
+}
+.container{
+  background-color: white;
+  /* padding: 50px; */
+  width: 300px;
+  margin: auto;
+}
+button {
+  border: none;
+  background-color: transparent;
+  font-family: Arial, sans-serif;
+  color: #66ccff;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.taskList {
+  display: flex;
+  align-items: left;
+  gap: 2px;
+  flex-direction: column;
+  /* padding-top: 10px; */
+  padding: 10px 25px 2px 25px;
+}
+
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+input[type=checkbox] {
+  accent-color: #F74F5A;
+}
+
+.fa-times{
+  background-color: #F74F5A;
+  color: rgb(225, 225, 225);
+  padding: 2px;
+}
+
+.buttonDiv{
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 5px;
+}

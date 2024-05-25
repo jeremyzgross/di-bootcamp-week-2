@@ -1,0 +1,5 @@
+.vscode/
+*/.env
+Final_Proj_Testing/Server_Testing/uploads/*
+**/node_modules/
+.DS_Store
